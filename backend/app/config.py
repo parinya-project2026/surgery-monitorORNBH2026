@@ -11,7 +11,7 @@ class Settings(BaseSettings):
 
     # Database Config (MySQL)
     # Format: mysql+pymysql://user:password@host:port/database_name
-    DATABASE_URL: str = "mysql+pymysql://root:Admin%401234@localhost:3306/surgitrack"
+    DATABASE_URL: str = "mysql+pymysql://root:admin1234@localhost:3306/surgitrack"
 
     class Config:
         env_file = ".env"

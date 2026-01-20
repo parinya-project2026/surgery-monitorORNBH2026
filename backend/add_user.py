@@ -24,7 +24,7 @@ print(f"[INFO] Adding/updating user: {username}")
 connection = pymysql.connect(
     host='localhost',
     user='root',
-    password='Admin@1234',
+    password='admin1234',
     database='surgitrack',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
